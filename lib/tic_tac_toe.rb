@@ -34,14 +34,12 @@ if turn_count.even?
   end
 end
 def turn
-  display_board
   puts "Select a position between 1-9."
   input = gets.strip
   index = input_to_index(input)
   if valid_move?(index)
     char = current_player
     move(index, char)
-
   else
     turn
 end
