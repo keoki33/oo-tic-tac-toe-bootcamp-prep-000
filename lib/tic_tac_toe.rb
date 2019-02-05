@@ -32,6 +32,8 @@ if turn_count.even?
   else
     "X"
   end
+end
+
 
 
   WIN_COMBINATIONS = [
