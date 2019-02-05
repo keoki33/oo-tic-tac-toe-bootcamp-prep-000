@@ -38,7 +38,7 @@ def turn
   puts "Select a position between 1-9."
   input = gets.strip
   index = input_to_index(input)
-  if valid_move(index)
+  if valid_move?(index)
     move(index, current_player)
     display_board
   else
