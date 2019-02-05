@@ -48,7 +48,9 @@ end
 def won?
 
 end
-
+def full?
+  if turn_count = 9
+  end
 
   WIN_COMBINATIONS = [
   [0, 1, 2],
