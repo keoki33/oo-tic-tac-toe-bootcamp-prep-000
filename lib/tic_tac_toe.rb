@@ -27,8 +27,11 @@ def turn_count
 end
 end
 def current_player
-
-end
+if turn_count.even?
+  "O"
+  else
+    "X"
+  end
 
 
   WIN_COMBINATIONS = [
