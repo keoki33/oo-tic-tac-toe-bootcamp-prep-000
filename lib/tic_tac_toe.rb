@@ -41,10 +41,11 @@ def turn
   if valid_move?(index)
     char = current_player
     move(index, char)
-    display_board
+
   else
     turn
 end
+display_board
 end
 
 
