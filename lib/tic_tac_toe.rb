@@ -30,7 +30,7 @@ def current_player
 if turn_count.even?
   "X"
   else
-    "O"
+  "O"
   end
 end
 
